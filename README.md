@@ -1,6 +1,6 @@
 # dac6551-stm32
 
-Driver for the DAC6551 (12-bit DAC) over SPI on a NUCLEO-F401RE, plus a FreeRTOS CLI over UART to set the output voltage. This was the firmware onboarding task for UW Formula Electric.
+Driver for the DAC6551 (12-bit DAC) over SPI on a NUCLEO-F401RE, plus a FreeRTOS CLI over UART to set the output voltage. firmware onboarding task for UWFE
 
 ## CLI
 
@@ -15,7 +15,7 @@ dacRaw <0..4095>  write a raw code
 - `Core/Src/cli_io.c`: UART line input and the CLI task
 - `Core/Src/dac_cli.c`: the two commands
 
-Only my source files are here. The CubeMX project and HAL code aren't included.
+Only source files are here. CubeMX project and HAL code aren't included.
 
 ## Setup
 
