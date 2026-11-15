@@ -1,6 +1,6 @@
 # dac6551-stm32
 
-Driver for the DAC6551 (12-bit DAC) over SPI on a NUCLEO-F401RE, plus a FreeRTOS CLI over UART to set the output voltage. firmware onboarding task for UWFE
+Driver for the DAC6551 (12-bit DAC) over SPI on a NUCLEO-F401RE, plus a FreeRTOS CLI over UART to set the output voltage. firmware onboarding task for UWFE, task finished in early Nov 2025, published on github on Nov 2026
 
 ## CLI
 
